@@ -1,0 +1,9 @@
+Description:
+    Adds necessary code to files
+
+Example:
+    rails generate loco:core:file_injector
+
+    This will modify:
+        app/helpers/application_helper.rb
+        app/views/layouts/application.html.erb
