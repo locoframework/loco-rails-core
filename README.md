@@ -1,4 +1,4 @@
-# Loco::Rails::Core
+# Loco::Core
 Short description and motivation.
 
 ## Usage
