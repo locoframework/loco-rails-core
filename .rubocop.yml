@@ -10,5 +10,10 @@ Metrics/LineLength:
   Exclude:
     - loco-core.gemspec
 
+Naming/FileName:
+  Enabled: true
+  Exclude:
+    - lib/loco-rails-core.rb
+
 Style/Documentation:
   Enabled: false
