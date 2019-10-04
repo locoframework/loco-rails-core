@@ -8,7 +8,7 @@ require_relative 'boot'
 end
 
 Bundler.require(*Rails.groups)
-require "loco/core"
+require "loco-rails-core"
 
 module Dummy
   class Application < Rails::Application
