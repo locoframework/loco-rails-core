@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Zbigniew Humeniuk']
   spec.email       = ['hello@artofcode.co']
   spec.homepage    = 'http://locoframework.org'
-  spec.summary     = 'Core part of the Loco framework'
-  spec.description = 'It enhances the layout body element with attributes that contain information about the current namespace, controller and action.'
+  spec.summary     = 'The core part of the Loco framework. It needs Loco-JS to work.'
+  spec.description = "It enhances layout's body element with attributes containing information about the current namespace, controller and action."
   spec.license     = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
