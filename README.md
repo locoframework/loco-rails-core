@@ -1,7 +1,7 @@
 # Loco-Rails-Core
 
 **Loco-Rails-Core** is a Rails plugin that has been extracted from [Loco-Rails](https://github.com/locoframework/loco-rails).
-The reason for this extraction was to pull out the functionality the can be used as a stand-alone lib.
+The reason for this extraction was to pull out the functionality that can be used as a stand-alone lib.
 This functionality was the origin of the [Loco-Rails](https://github.com/locoframework/loco-rails) project.  
 
 I wanted to provide a logical structure for JavaScript code that would be corresponding with Rails` controllers and views.
