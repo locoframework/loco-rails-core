@@ -1,4 +1,6 @@
-# Loco-Rails-Core
+![logo](https://raw.githubusercontent.com/artofcodelabs/artofcodelabs.github.io/master/assets/ext/loco_logo_trans_sqr-300px.png)
+
+# 🧐 What is Loco-Rails-Core?
 
 **Loco-Rails-Core** is a Rails plugin that has been extracted from [Loco-Rails](https://github.com/locoframework/loco-rails).
 The reason for this extraction was to pull out the functionality that can be used as a stand-alone lib.
@@ -47,7 +49,7 @@ You can define a JavaScript counterparts only for those actions that you want to
 **Loco-Rails-Core** is a good choice if you don't need all the features that [Loco-Rails](https://github.com/locoframework/loco-rails) provides.
 
 
-## 📥 Installation
+# 📥 Installation
 
 Add this line to your application's Gemfile:
 
@@ -61,18 +63,25 @@ $ bundle
 ```
 
 
-## 🎮 Usage
+# 🎮 Usage
 
 ```bash
 $ bin/rails generate loco:core:file_injector
 ```
 
 
-## 📜 License
+# 👩🏽‍🔬 Tests
+
+```bash
+$ bin/test
+```
+
+
+# 📜 License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 
-## 👨‍🏭 Author
+# 👨‍🏭 Author
 
 Zbigniew Humeniuk from [Art of Code](https://artofcode.co)
