@@ -1,12 +1,12 @@
 # Loco-Rails-Core
 
 **Loco-Rails-Core** is a Rails plugin that has been extracted from [Loco-Rails](https://github.com/locoframework/loco-rails).
-The reason for this extraction was to pull out the functionality the can be used as a stand-alone lib.
+The reason for this extraction was to pull out the functionality that can be used as a stand-alone lib.
 This functionality was the origin of the [Loco-Rails](https://github.com/locoframework/loco-rails) project.  
 
 I wanted to provide a logical structure for JavaScript code that would be corresponding with Rails` controllers and views.
 The same controller's action would be called on the JavaScript level that renders a response for a given request on the [Rails](https://rubyonrails.org) side.
-By _"the same"_ - I mean an action with the same name and defined in a (optionally namespaced) controller with the corresponding name on the server side as well.
+By _"the same"_ - I mean action with the same name and defined in an (optionally namespaced) controller with the corresponding name as the one on the server-side.
 
 The **Loco-Rails-Core** by itself does not provide a lot of value. It has to be used with its JavaScript complementary library - [Loco-JS](https://github.com/locoframework/loco-js).
 **Loco-Rails-Core**'s single generator adds `Loco::Core::Helpers` module to `ApplicationHelper`.
