@@ -8,9 +8,7 @@ module Loco
         {
           'data-namespace' => namespace_name,
           'data-controller' => data_controller,
-          'data-action' => action_name,
-          'data-rails-env' => Rails.env,
-          'data-user-agent' => request.user_agent
+          'data-action' => action_name
         }
       end
 
