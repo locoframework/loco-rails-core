@@ -5,7 +5,7 @@ AllCops:
   Exclude:
     - test/**/*
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: true
   Exclude:
     - loco-rails-core.gemspec
