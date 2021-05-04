@@ -31,9 +31,9 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rails', '>= 5.0'
 
-  spec.add_development_dependency 'capybara', '~> 3.28.0'
+  spec.add_development_dependency 'capybara', '~> 3.35.3'
   spec.add_development_dependency 'puma', '~> 4.2'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'rubocop-rails'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.142'
+  spec.add_development_dependency 'selenium-webdriver', '~> 3.142.7'
 end
