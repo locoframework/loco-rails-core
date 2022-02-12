@@ -22,18 +22,19 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = 'https://rubygems.org'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
+          'public gem pushes.'
   end
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.add_dependency 'rails', '>= 5.0'
 
-  spec.add_development_dependency 'capybara', '~> 3.35.3'
-  spec.add_development_dependency 'puma', '~> 4.2'
+  spec.add_development_dependency 'capybara', '~> 3.36.0'
+  spec.add_development_dependency 'puma', '~> 5.6.2'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'rubocop-rails'
-  spec.add_development_dependency 'selenium-webdriver', '~> 3.142.7'
+  spec.add_development_dependency 'selenium-webdriver', '~> 4.1.0'
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end

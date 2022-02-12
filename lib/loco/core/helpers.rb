@@ -4,7 +4,7 @@ module Loco
   module Core
     module Helpers
       def loco_body_data
-        data_controller = controller_name.split('_').map(&:capitalize).join ''
+        data_controller = controller_name.split('_').map(&:capitalize).join
         {
           'data-namespace' => namespace_name,
           'data-controller' => data_controller,
