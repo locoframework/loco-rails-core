@@ -27,14 +27,14 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.required_ruby_version = '>= 2.7.0'
+  spec.required_ruby_version = '>= 3.0.0'
 
   spec.add_dependency 'rails', '>= 5.0'
 
-  spec.add_development_dependency 'capybara', '~> 3.36.0'
-  spec.add_development_dependency 'puma', '~> 5.6.2'
-  spec.add_development_dependency 'rubocop'
-  spec.add_development_dependency 'rubocop-rails'
-  spec.add_development_dependency 'selenium-webdriver', '~> 4.1.0'
+  spec.add_development_dependency 'capybara', '~> 3.38.0'
+  spec.add_development_dependency 'puma', '~> 6.1.1'
+  spec.add_development_dependency 'rubocop', '~> 1.48'
+  spec.add_development_dependency 'rubocop-rails', '~> 2.18.0'
+  spec.add_development_dependency 'selenium-webdriver', '~> 4.8.1'
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
