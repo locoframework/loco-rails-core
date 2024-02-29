@@ -15,11 +15,14 @@ module Loco
       private
 
       def namespace_name
-        path = controller_path.split '/'
-        if path.size > 1
+        path = controller_path.split('/')
+        case path.size
+        when 1
+          'Main'
+        when 2
           path.first
         else
-          'Main'
+          path[0..-2][-1]
         end.capitalize
       end
     end
