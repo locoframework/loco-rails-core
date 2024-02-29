@@ -31,10 +31,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rails', '>= 5.0'
 
-  spec.add_development_dependency 'capybara', '~> 3.38.0'
-  spec.add_development_dependency 'puma', '~> 6.4.2'
-  spec.add_development_dependency 'rubocop', '~> 1.48'
-  spec.add_development_dependency 'rubocop-rails', '~> 2.18.0'
-  spec.add_development_dependency 'selenium-webdriver', '~> 4.8.1'
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
