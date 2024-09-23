@@ -135,7 +135,7 @@ GEM
       timeout
     net-smtp (0.4.0.1)
       net-protocol
-    nio4r (2.7.0)
+    nio4r (2.7.3)
     nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -147,7 +147,7 @@ GEM
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     racc (1.8.0)
     rack (3.0.11)
@@ -243,7 +243,7 @@ PLATFORMS
 DEPENDENCIES
   capybara (~> 3.38.0)
   loco-rails-core!
-  puma (~> 6.4.2)
+  puma (~> 6.4.3)
   rubocop
   rubocop-rails
   selenium-webdriver (~> 4.8.1)
