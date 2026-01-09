@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.version     = Loco::Core::VERSION
   spec.authors     = ['Zbigniew Humeniuk']
   spec.email       = ['hello@artofcode.co']
-  spec.homepage    = 'http://locoframework.org'
+  spec.homepage    = 'https://github.com/locoframework/loco-rails-core'
   spec.summary     = 'The core part of the Loco framework. It needs Loco-JS to work.'
   spec.description = "It enhances layout's body element with attributes containing information about the current namespace, controller and action."
   spec.license     = 'MIT'
